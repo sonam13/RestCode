@@ -6,7 +6,7 @@
 	<groupId>com.tcs</groupId>
 	<artifactId>RestCode</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>RestCode</name>
 	<description>generate rest source code</description>
