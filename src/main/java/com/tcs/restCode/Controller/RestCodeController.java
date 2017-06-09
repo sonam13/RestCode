@@ -17,7 +17,7 @@ import com.tcs.restCode.Service.RestCodeService;
 @Controller
 public class RestCodeController {
 	@Autowired RestCodeService restCodeService; 
-	@RequestMapping(value = "/restCode", method = RequestMethod.POST)
+	@RequestMapping(value = "", method = RequestMethod.POST)
 	public @ResponseBody Object getResponse(@RequestBody Request request) throws UniformInterfaceException, ClientHandlerException, JSONException {
  		return restCodeService.getResponse(request);
 	}
